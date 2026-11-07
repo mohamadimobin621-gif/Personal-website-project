@@ -1,0 +1,122 @@
+$dark-color: #1f1f1f;
+$light-color: #b8b1b1;
+$normal-color: #aaa5a5;
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: $dark-color;
+
+
+}
+
+body {
+    background-image: url(img/bg-img.jpg);
+    background-size: cover;
+}
+
+main {
+
+    header {
+
+        width: 100%;
+
+        section {
+            margin-right: 160px;
+            top: 30px;
+            flex: 1;
+            display: flex;
+
+
+            border-radius: 999px;
+            margin-top: 50px;
+            width: 70%;
+            background-color: rgb(186, 47, 7);
+
+            figure {
+
+                img {
+                    padding-top: 10px;
+                    border-radius: 50%;
+                    width: 60%;
+                    padding-right: 10px;
+
+                }
+            }
+
+            aside {
+
+                ul {
+                    list-style: none;
+                    text-align: right;
+                    margin-top: 30px;
+                    color: $light-color;
+
+                    li {
+                        margin-top: 28px;
+                        margin-bottom: 10px;
+                        color: $light-color;
+
+                        a {
+                            text-decoration: none;
+                            color: $light-color ;
+                        }
+
+                        span {
+                            display: inline-flex;
+                            align-items: center;
+                            margin-right: 10px;
+
+                            i {
+                                color: $light-color; // هم‌رنگ متن لینک
+                                font-size: 20px; // کمی بزرگ‌تر از متن
+                                line-height: 1;
+                            }
+
+                            &:hover {
+
+                                i {
+                                    color: #3f3e3e; // هر دو با هم تغییر رنگ بدن
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+#about-me {
+    padding: 40px 50px; // حداقل ۵۰ پیکسل از چپ و راست
+    margin: 40px auto;
+    max-width: 900px;
+    text-align: center; // یا right اگه راست‌چین می‌خوای
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+
+    h2 {
+        font-size: 32px;
+        margin-bottom: 8px;
+        color: #f1f1f1; // رنگ روشن
+    }
+
+    h3 {
+        font-size: 19px;
+        font-weight: 400;
+        color: $normal-color; // کمی ملایم‌تر از متن
+        margin-bottom: 24px;
+        color: #f1f1f1; // رنگ روشن
+    }
+
+    p {
+        font-size: 17px;
+        line-height: 2; // فاصله خطوط برای خوانایی فارسی
+        margin-bottom: 16px;
+        color: #f1f1f1; // رنگ روشن
+    }
+}

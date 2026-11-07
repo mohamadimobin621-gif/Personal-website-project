@@ -1,0 +1,87 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1f1f1f;
+}
+
+body {
+  background-image: url(img/bg-img.jpg);
+  background-size: cover;
+}
+
+main header {
+  width: 100%;
+}
+main header section {
+  margin-right: 160px;
+  top: 30px;
+  flex: 1;
+  display: flex;
+  border-radius: 999px;
+  margin-top: 50px;
+  width: 70%;
+  background-color: rgb(186, 47, 7);
+}
+main header section figure img {
+  padding-top: 10px;
+  border-radius: 50%;
+  width: 60%;
+  padding-right: 10px;
+}
+main header section aside ul {
+  list-style: none;
+  text-align: right;
+  margin-top: 30px;
+  color: #b8b1b1;
+}
+main header section aside ul li {
+  margin-top: 28px;
+  margin-bottom: 10px;
+  color: #b8b1b1;
+}
+main header section aside ul li a {
+  text-decoration: none;
+  color: #b8b1b1;
+}
+main header section aside ul li span {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+}
+main header section aside ul li span i {
+  color: #b8b1b1;
+  font-size: 20px;
+  line-height: 1;
+}
+main header section aside ul li span:hover i {
+  color: #3f3e3e;
+}
+
+#about-me {
+  padding: 40px 50px;
+  margin: 40px auto;
+  max-width: 900px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 20px;
+}
+#about-me h2 {
+  font-size: 32px;
+  margin-bottom: 8px;
+  color: #f1f1f1;
+}
+#about-me h3 {
+  font-size: 19px;
+  font-weight: 400;
+  color: #aaa5a5;
+  margin-bottom: 24px;
+  color: #f1f1f1;
+}
+#about-me p {
+  font-size: 17px;
+  line-height: 2;
+  margin-bottom: 16px;
+  color: #f1f1f1;
+}/*# sourceMappingURL=style.css.map */
