@@ -84,4 +84,68 @@ main header section aside ul li span:hover i {
   line-height: 2;
   margin-bottom: 16px;
   color: #f1f1f1;
+}
+
+section {
+  flex: 1;
+  display: flex;
+}
+section .project-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 320px;
+  max-width: 100%;
+  margin: 40px auto;
+  padding: 50px 35px 70px;
+  border-radius: 999px;
+  background: rgb(186, 47, 7);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+section .project-box figure {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 25px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid rgba(255, 255, 255, 0.25);
+  flex-shrink: 0;
+}
+section .project-box figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+section .project-box h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #f1f1f1;
+}
+section .project-box p {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #b8b1b1;
+  margin: 0;
+}
+section .project-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  flex: 1;
+  display: flex;
+  background-color: rgba(247, 132, 100, 0.459);
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  color: #b8b1b1;
 }/*# sourceMappingURL=style.css.map */
