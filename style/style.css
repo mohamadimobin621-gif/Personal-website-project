@@ -103,7 +103,6 @@ section .project-box {
   background: rgb(186, 47, 7);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
   border: 1px solid rgba(255, 255, 255, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 section .project-box figure {
   width: 160px;
@@ -112,7 +111,6 @@ section .project-box figure {
   border-radius: 50%;
   overflow: hidden;
   border: 4px solid rgba(255, 255, 255, 0.25);
-  flex-shrink: 0;
 }
 section .project-box figure img {
   width: 100%;
@@ -134,18 +132,78 @@ section .project-box p {
   margin: 0;
 }
 section .project-box:hover {
+  transform: scale(1.04);
   transform: translateY(-8px);
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.5);
 }
 
-footer {
-  flex: 1;
-  display: flex;
-  background-color: rgba(247, 132, 100, 0.459);
+.site-footer {
+  margin-top: 60px;
+  padding-bottom: 30px;
 }
-footer ul {
+.site-footer .footer-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 35px 60px;
+  border-radius: 60px;
+  background: rgba(186, 47, 7, 0.95);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.site-footer .footer-brand {
+  text-align: right;
+}
+.site-footer .footer-brand h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #f1f1f1;
+}
+.site-footer .footer-brand p {
+  font-size: 15px;
+  color: #b8b1b1;
+}
+.site-footer .footer-links ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   list-style: none;
 }
-footer ul li {
+.site-footer .footer-links li {
+  margin: 0 14px;
+}
+.site-footer .footer-links a {
+  font-size: 15px;
+  text-decoration: none;
   color: #b8b1b1;
+}
+.site-footer .footer-links a:hover {
+  color: #fff;
+}
+.site-footer .footer-social {
+  display: flex;
+}
+.site-footer .footer-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  margin: 0 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  text-decoration: none;
+}
+.site-footer .footer-social a i {
+  font-size: 18px;
+  line-height: 1;
+  color: #f1f1f1;
+}
+.site-footer .footer-social a:hover {
+  background: rgba(255, 255, 255, 0.25);
 }/*# sourceMappingURL=style.css.map */
